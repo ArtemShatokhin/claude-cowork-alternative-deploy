@@ -1,0 +1,39 @@
+# Open-source Claude Cowork alternative - self-hosted deployment.
+#
+# Infrastructure for running open-source Kortix on a single VPS.
+# Caddy terminates TLS for the Kortix web app and API; Postgres is the app
+# database. Kortix itself installs with the official installer (see
+# ./install.sh) so the application can be upgraded independently of this
+# infrastructure stack.
+#
+#   curl -fsSL https://kortix.com/install | bash
+#
+# Docs: https://claudecoworkalternative.com/self-hosting.html
+services:
+  caddy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-kortix}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-kortix}
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5432:5432"
+    restart: unless-stopped
+
+volumes:
+  caddy-data:
+  caddy-config:
+  pg-data:
