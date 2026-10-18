@@ -2,6 +2,8 @@
 
 Kortix is the open-source AI Operating System, and this repository installs it on a server you control as an alternative to Claude Cowork. You run the whole platform in your own infrastructure, with agents, skills, company memory and connector config stored as files in one git repo you own.
 
+Before the first deploy, the [install guide](https://claudecoworkalternative.com/install) and the [migration path off Cowork](https://claudecoworkalternative.com/migration) cover the first hour.
+
 ## What this repository is
 
 This is a deployment kit for open-source Kortix. It provisions the infrastructure around the platform, then installs the app with the official installer. The app stays upgradeable on its own, and the infrastructure is plain Docker Compose.
