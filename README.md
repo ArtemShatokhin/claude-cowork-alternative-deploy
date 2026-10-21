@@ -50,10 +50,11 @@ You need a host with Docker and a domain you can point at it. Nothing else is re
 
 ## Learn more
 
-- Compare the options: [Claude Cowork vs Kortix](https://claudecoworkalternative.com/claude-cowork-vs-kortix.html) and the [full alternative comparison](https://claudecoworkalternative.com/comparison.html).
-- Server steps: [self-hosting guide](https://claudecoworkalternative.com/self-hosting.html).
-- Why Claude Cowork is closed: [is Claude Cowork open source](https://claudecoworkalternative.com/is-claude-cowork-open-source.html).
+- Compare the options: [Claude Cowork vs Kortix](https://claudecoworkalternative.com/claude-cowork-vs-kortix) and the [full alternative comparison](https://claudecoworkalternative.com/comparison).
+- Server steps: [self-hosting guide](https://claudecoworkalternative.com/self-hosting).
+- Why Claude Cowork is closed: [is Claude Cowork open source](https://claudecoworkalternative.com/is-claude-cowork-open-source).
 - Product and docs: [kortix.com](https://kortix.com) and [kortix.com/docs](https://kortix.com/docs).
+- The two places Cowork itself runs are on [where Claude Cowork runs now](https://claudecoworkalternative.com/claude-cowork-desktop-app), which follows the desktop app after the September 2026 merge, and [Claude Cowork on Windows](https://claudecoworkalternative.com/claude-cowork-for-windows), which separates what installs on a workstation from what a server keeps.
 - Source code: [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 ## What is new on the companion site
