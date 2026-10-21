@@ -1,6 +1,6 @@
 # Self-hosting open-source Kortix on your own server
 
-Self-hosting Kortix means running the open-source AI Management System on infrastructure you control, so your files, your model keys and your audit trail stay in your accounts. The deploy kit in this repository puts open-source Kortix on a single VPS, a VPC or an on-prem host.
+Self-hosting Kortix means running the open-source AI Operating System on infrastructure you control, so your files, your model keys and your audit trail stay in your accounts. The deploy kit in this repository puts open-source Kortix on a single VPS, a VPC or an on-prem host.
 
 ## What self-hosting means here
 
@@ -58,4 +58,4 @@ Back up the `pg-data` volume before an upgrade. Postgres stores the app database
 - Port 80 or 443 already in use: another web server is bound to the port. Stop it, or move it behind Caddy.
 - App install fails: run `curl -fsSL https://kortix.com/install | bash` on its own to see the full installer output.
 
-The campaign site covers the wider decision at [self-hosting an open-source Claude Cowork alternative](https://claudecoworkalternative.com/self-hosting.html). Product documentation is at [kortix.com/docs](https://kortix.com/docs), and the source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+The campaign site covers the wider decision at [self-hosting an open-source Claude Cowork alternative](https://claudecoworkalternative.com/self-hosting). Product documentation is at [kortix.com/docs](https://kortix.com/docs), and the source is at [Kortix on GitHub](https://github.com/kortix-ai/suna).
