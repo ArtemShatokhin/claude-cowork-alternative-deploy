@@ -1,10 +1,10 @@
 # Open-source Kortix FAQ: self-hosting and moving off Claude Cowork
 
-Kortix is the open-source AI Management System, and this repository installs it on your own server. These answers cover the questions a team asks before it moves work off Claude Cowork and runs open-source Kortix on its own infrastructure.
+Kortix is the open-source AI Operating System, and this repository installs it on your own server. These answers cover the questions a team asks before it moves work off Claude Cowork and runs open-source Kortix on its own infrastructure.
 
 ## Does Kortix run on my own servers?
 
-Yes. Kortix is the open-source AI Management System and runs on hardware you control: your laptop, a VPS, your VPC or on-prem, or managed cloud if you prefer. Self-hosting is free, and you supply the compute. Kortix is open source (Elastic License 2.0) — self-host, read and modify the code. See the [self-hosting guide](https://claudecoworkalternative.com/self-hosting.html) for the server steps.
+Yes. Kortix is the open-source AI Operating System and runs on hardware you control: your laptop, a VPS, your VPC or on-prem, or managed cloud if you prefer. Self-hosting is free, and you supply the compute. Kortix is open source: self-host, read and modify the code. See the [self-hosting guide](https://claudecoworkalternative.com/self-hosting) for the server steps.
 
 ## Can I keep my own model keys?
 
@@ -20,4 +20,4 @@ Kortix is a server-side platform that can also run on a laptop. It deploys as a 
 
 ## How does this repository relate to the campaign site?
 
-This repository is the deployment kit. It provisions Caddy and Postgres and installs open-source Kortix with the official installer. The campaign site, [claudecoworkalternative.com](https://claudecoworkalternative.com/), explains the decision to move off Claude Cowork, compares the field, and links the same setup steps. Use the repo to run the platform and the [site FAQ](https://claudecoworkalternative.com/faq.html) to compare options.
+This repository is the deployment kit. It provisions Caddy and Postgres and installs open-source Kortix with the official installer. The campaign site, [claudecoworkalternative.com](https://claudecoworkalternative.com/), explains the decision to move off Claude Cowork, compares the field, and links the same setup steps. Use the repo to run the platform and the [site FAQ](https://claudecoworkalternative.com/faq) to compare options.
